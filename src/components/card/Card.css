@@ -1,0 +1,30 @@
+.container{
+    margin-top: 2rem;
+}
+
+.btn{
+    color: black;
+}
+
+.card{
+    border: 1px solid #0087ca ;
+    border: none;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.card-text{
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 500;
+
+}
+
+.card-img-top{
+    height: 10rem;
+    width: 15rem;
+}

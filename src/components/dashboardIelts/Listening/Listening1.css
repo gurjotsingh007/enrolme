@@ -1,0 +1,20 @@
+.audio{
+    box-shadow: 5px 4px 25px 2px rgba(50, 179, 199, 1);
+}
+
+  .rhap_main-controls-button svg {
+    color: #32b3c7;
+  
+  }
+  .rhap_progress-filled,
+  .rhap_progress-indicator {
+    background-color: #32b3c7 !important;
+  }
+  
+  .rhap_button-clear.rhap_volume-button {
+    color: #32b3c7 !important;
+  }
+  
+  .rhap_volume-bar, .rhap_volume-indicator {
+    background-color: #32b3c7;
+  }

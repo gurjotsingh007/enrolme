@@ -1,0 +1,228 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.section-box .list-box {
+  display: flex;
+}
+
+.section-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-box .box,
+.section-box .box::before,
+.section-box .box::after {
+  box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.7);
+}
+
+.section-box .box {
+  width: 30rem;
+  max-width: 280px;
+  cursor: pointer;
+  background-color: #0087ca;
+  padding: 25px 15px;
+  border-radius: 5px 25px 25px 25px;
+  position: relative;
+
+  margin: 0 15px;
+}
+
+.section-box .top {
+  display: flex;
+  justify-content: space-between;
+}
+.section-box .box .mini-title {
+  color: #aaa;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.section-box .box .logo {
+  width: 45px;
+  border-radius: 50%;
+}
+
+.section-box .box .content {
+  margin-top: 30px;
+}
+.section-box .box .big-title {
+  color: #fff;
+  font-size: 32px;
+}
+.section-box .box .text {
+  color: #eee;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.section-box .box .details {
+  list-style: none;
+  margin-top: 25px;
+}
+.section-box .box .details .detail {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.section-box .box .details .detail-icon {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  background-color: #2a1035;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 10px;
+}
+.section-box .box .details .detail-name {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #eee;
+} */
+
+/* -----------------------NEW  ------ --- -- -- --- --- --- - -*/
+
+
+
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+
+.home body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--veryLightGray);
+}
+
+
+.home .attribution { 
+  font-size: 11px; text-align: center; 
+}
+.home .attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.home h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+
+}
+
+.home h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+}
+
+.home .header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.home .header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+
+.home .box p {
+  color: var(--grayishBlue);
+}
+
+.home .box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px; 
+  min-width: 16rem;
+  min-height: 14rem; 
+}
+
+.home img {
+  float: right;
+}
+
+@media (max-width: 450px) {
+  .box {
+      height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+      text-align: center;
+      height: 180px;
+  }
+}
+
+.home .cyan {
+  border-top: 3px solid var(--cyan);
+}
+.home .red {
+  border-top: 3px solid var(--red);
+}
+.home .blue {
+  border-top: 3px solid var(--blue);
+}
+.home .orange {
+  border-top: 3px solid var(--orange);
+}
+
+.home h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+
+@media (min-width: 950px) {
+  .row1-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .row2-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .box-down {
+      position: relative;
+      /* top: 150px; */
+  }
+  .box {
+      width: 15rem;
+   
+  }
+  .header p {
+      width: 15rem;
+  }
+  
+}

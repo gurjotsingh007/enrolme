@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.course{
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+@media (max-width: 767px) {
+  .flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

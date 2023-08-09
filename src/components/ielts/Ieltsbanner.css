@@ -1,0 +1,21 @@
+.newbanner{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    font-family: Lato, sans-serif;
+    background-image: url("https://raw.githubusercontent.com/Aryan-desale/Social-proof-section./a3e35244a566dae3da8f2f72fd065732de9716ce/images/bg-pattern-top-desktop.svg");
+    
+  }
+  
+  .image{
+    z-index:-5;
+  }
+  
+  .text{
+    font-size:2rem;
+    color:#00106a;
+    /* inline-size: 600px; */
+    
+  }
+  

@@ -1,0 +1,19 @@
+h1{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+
+p{
+    font-size: 1.2rem;
+    
+}
+
+.span{
+    color:#0087ca;
+}

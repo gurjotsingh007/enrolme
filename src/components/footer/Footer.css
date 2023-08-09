@@ -1,0 +1,19 @@
+.text-reset{
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.d-lg-block{
+    font-weight: bold;
+}
+
+
+iframe {
+    margin: 2rem auto;
+    width:100%;
+    height:25rem;
+  }
